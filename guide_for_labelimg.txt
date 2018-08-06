@@ -1,0 +1,11 @@
+1. 软件的主代码是labelimg/labelimg.py，支持代码在labelimg/libs下；
+2. 井号行之间的代码是基于github上原labelimg开源项目修改的部分，注释中标明了代码对应的功能，
+   原labelimg的github地址：https://github.com/tzutalin/labelImg；
+3. 运行软件请参考labelimg/README.rst
+4. 导出windows版本的软件需要在终端运行以下几条命令：
+	（1）在labelimg目录下运行“make”
+	（2）在labelimg/build-tools目录下运行“sh envsetup.sh”
+	（3）在labelimg/build-tools目录下运行“sh build-windows-binary.sh”
+	编译成功后软件会被导出为labelimg/build-tools/windows_1.6/labelimg.exe。
+   更多编译内容请参考labelimg/build-tools/README.md；
+5. 软件的使用手册见labelimg/基于labelimg改进的图像标注软件-使用手册.docx
